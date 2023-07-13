@@ -75,7 +75,7 @@ translator.translateAndPrint("This means 'testing' in chinese", to: 'zh-cn');
 &nbsp;
 
 # API
-For full API docs take a look at https://pub.dartlang.org/documentation/translator_plus/latest/
+For full API docs take a look at https://pub.dev/documentation/translator_plus/latest/
 
 
 # License
