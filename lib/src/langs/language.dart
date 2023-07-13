@@ -87,7 +87,6 @@ class LanguageList {
     'mk': 'Macedonian',
     'mg': 'Malagasy',
     'mai': 'Maithili',
-    'mg': 'Malagasy',
     'ms': 'Malay',
     'ml': 'Malayalam',
     'mt': 'Maltese',
@@ -126,7 +125,6 @@ class LanguageList {
     'su': 'Sundanese',
     'sw': 'Swahili',
     'sv': 'Swedish',
-    'tl': 'Tagalog (Filipino)',
     'tg': 'Tajik',
     'ta': 'Tamil',
     'tt': 'Tatar',
@@ -158,8 +156,7 @@ class LanguageList {
   }
 
   static bool contains(String codeOrLang) {
-    if (_langs.containsKey(codeOrLang) ||
-        _langs.containsValue(codeOrLang.toCamelCase())) {
+    if (_langs.containsKey(codeOrLang) || _langs.containsValue(codeOrLang.toCamelCase())) {
       return true;
     }
     return false;
@@ -168,8 +165,7 @@ class LanguageList {
 
 class LanguageNotSupportedException implements Exception {
   final String msg;
-  LanguageNotSupportedException(String lang)
-      : msg = '$lang is not a supported language.';
+  LanguageNotSupportedException(String lang) : msg = '$lang is not a supported language.';
 }
 
 extension _CamelCase on String {
