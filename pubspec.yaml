@@ -1,6 +1,6 @@
 name: translator_plus
 description: A free and unlimited Google Translate API for Dart. You can use it for translate strings and text for educational purpose.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/HusamAwad2001/translator_plus
 
 environment:
