@@ -1,7 +1,7 @@
 # translator_plus
 Free Google Translate API for Dart
 
-See it in pub: https://pub.dev/packages/translator_plus
+See it in pub: https://pub.dev/packages/translator_plus \
 and GitHub: https://github.com/HusamAwad2001/translator_plus
 
 # Usage
